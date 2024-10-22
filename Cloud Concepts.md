@@ -15,14 +15,13 @@
     - [What is the Shared Responsibility Model?](#what-is-the-shared-responsibility-model)
     - [AWS Responsibilities: Security of the Cloud](#aws-responsibilities-security-of-the-cloud)
     - [Customer Responsibilities: Security in the Cloud](#customer-responsibilities-security-in-the-cloud)
-
 # What is Cloud Computing?
  - The <mark style="background: #D2B3FFA6;">on-demand</mark> delivery of the compute power, database storage, applications, and other IT resources over the internet.
  - Through a cloud service platform with <mark style="background: #D2B3FFA6;">pay-as-you-go</mark> pricing.
  - You can <mark style="background: #D2B3FFA6;">provision exactly the right type</mark> and <mark style="background: #D2B3FFA6;">size of computing resources</mark> you need.
  - You can access as many resources as you need,<mark style="background: #D2B3FFA6;"> almost instantly</mark>.
  - Simply way to access <mark style="background: #D2B3FFA6;">servers, storage, database</mark> and a set of <mark style="background: #D2B3FFA6;">applications services</mark>.
-## Why Cloud Computing?
+### Why Cloud Computing?
 - There are many problems with the traditional IT approach
     - Covering the costs of data center rental.
     - Covering expenses for power supply, cooling, and maintenance.
@@ -31,39 +30,39 @@
     - Employing a 24/7 team for infrastructure monitoring.
     - Addressing disaster preparedness concerns such as earthquakes, power shutdowns, and fires.
     - Overall, inflexible and inconvenient for our rapidly changing world.
-## Deployment Models of the Cloud
+### Deployment Models of the Cloud
 | Private Cloud                                                            | Public Cloud                                                                                             | Hybrid Cloud                                                                 |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Cloud services used by a single organization, not exposed to the public. | Cloud resources owned and operated by a third-party cloud service provider, delivered over the Internet. | Keep some servers on-premises and extend some capabilities to the cloud.     |
 | Complete control over data, security, and compliance.                    | Cost-effective as infrastructure is shared among multiple users.                                         | Allows data and applications to be shared between private and public clouds. |
 | Security for sensitive applications, ideal for critical workloads.       | Suitable for less sensitive workloads that require high scalability and availability.                    | Offers flexibility, security, and scalability for different use cases.       |
 | Meet specific business needs and compliance requirements.                | No maintenance required as the cloud provider manages the infrastructure.                                | Provides business continuity, disaster recovery, and data backup solutions.  |
-## Characteristics of the Cloud Computing 
-### Agility / On-demand self service.
+### Characteristics of the Cloud Computing 
+#### Agility / On-demand self service.
 - Users can provision resources and use them without human interaction from the service provider.
-### High Availability / Broad network access.
+#### High Availability / Broad network access.
 - Resources are available over the network, and can be accessed by diverse client platforms.
-### Fault Tolerance / Multi-tenancy and Resource Pooling
+#### Fault Tolerance / Multi-tenancy and Resource Pooling
 - Multiple customers can share the same infrastructure and applications with security and privacy.
 - Multiple customers are serviced form the same physical resource.
-### Rapid Elasticity and Scalability
+#### Rapid Elasticity and Scalability
 - Automatically and quickly acquire and dispose resources when needed.
 - Quickly and easily scale based on demand.
-#### Scalability Types 
+##### Scalability Types 
 |                Vertical Scaling (scale up/down)                 |                           Horizontal Scaling (scale out/in)                            |
 | :-------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 | Involves increasing the capacity of a single server or machine. |      Involves adding more servers or machines to a system to distribute the load.      |
 | Upgrades the system's resources, such as CPU, RAM, or storage.  | Expands capacity by increasing the number of nodes rather than upgrading a single one. |
-### Measured Service 
+#### Measured Service 
 - Usage of resources is measured, and users are charged accurately based on their consumption, ensuring cost efficiency.
-## Advantages of Cloud Computing 
+### Advantages of Cloud Computing 
 - **Cost Savings**: Pay only for the computing power, storage, and other resources you use.
 - **Speed and Agility**: Quickly deploy services and resources.
 - **Scalability**: Easily scale resources up or down as needed.
 - **High Availability**: Highly available architecture for business continuity.
 - **Global Reach**: Access services from any geographical region.
 - **Security**: AWS provides robust security capabilities to protect your data.
-## Cloud Service Models 
+### Cloud Service Models 
 ![](https://i.imgur.com/ubuwOIp.png)
 
 | Infrastructure as a Service (IaaS)                                              | Platform as a Service (PaaS)                                                      | Software as a Service (SaaS)                                                     |
@@ -72,7 +71,7 @@
 | Offers maximum control over the infrastructure.                                 | Focus on deploying applications without managing underlying infrastructure.       | Accessible over the internet, usually via a web browser.                         |
 | Suitable for developers needing control over OS, middleware, and runtime.       | Ideal for developers who want to focus on application development                 | Suitable for users needing access to software without infrastructure management. |
 | Examples include Amazon EC2, Azure Virtual Machines, and Google Compute Engine. | Examples include AWS Elastic Beanstalk, Azure App Service, and Google App Engine. | Examples include Google Workspace, Microsoft Office 365, and Salesforce.         |
-## AWS Pricing Models
+### AWS Pricing Models
 AWS follows three fundamental pricing principles based on the pay-as-you-go pricing model:
 
 | Fundamental       | Description                                                                                                                                                          |
@@ -99,7 +98,7 @@ When deploying to AWS, there are multiple factors to consider:
 ### AWS Edge Locations / Points of Presence
 - Content is delivered to end users with lower latency as amazon has 400+ points of presence in 90+ cities across 40+ countries.
 # Shared Responsibility Model
-## What is the Shared Responsibility Model?
+### What is the Shared Responsibility Model?
 - AWS and the customer share responsibility for security and compliance.
 - Divides security tasks based on AWS as the provider and customer as the user of cloud services.
   ![](https://i.imgur.com/ZQU9ZoZ.png)
@@ -109,7 +108,7 @@ When deploying to AWS, there are multiple factors to consider:
     - **Physical security** of data centers (e.g., access control, environmental controls).
     - **Infrastructure** security, such as maintaining hypervisors, host operating systems, and network infrastructure.
     - **Global network** operations, such as DDoS protection and monitoring.
-#### Example Responsibilities for Different AWS Services
+##### Example Responsibilities for Different AWS Services
 
 | Service Type     | AWS Responsibility                                         | Customer Responsibility                                                |
 | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
