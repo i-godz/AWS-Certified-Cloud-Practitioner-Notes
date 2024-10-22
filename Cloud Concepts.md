@@ -1,23 +1,22 @@
 # Cloud Computing Index
----
-- ### [[#What is Cloud Computing?]]
-    - [[#Why Cloud Computing?]]
-    - [[#Deployment Models of the Cloud]]
-    - [[#Characteristics of the Cloud Computing]]
-    - [[#Advantages of Cloud Computing]]
-    - [[#Cloud Service Models]]
-    - [[#AWS Pricing Models]]
-- ### [[#AWS Global Infrastructure]]
-    - [[#AWS Regions]]
-    - [[#How to choose an AWS region???]]
-    - [[#AWS Availability Zones]]
-    - [[#AWS Edge Locations / Points of Presence]]
-- ### [[#Shared Responsibility Model]]
-    - [[#What is the Shared Responsibility Model?]]
-    - [[#AWS Responsibilities Security of the Cloud]]
-    - [[#Customer Responsibilities Security in the Cloud]]
+- [What is Cloud Computing?](#what-is-cloud-computing)
+    - [Why Cloud Computing?](#why-cloud-computing)
+    - [Deployment Models of the Cloud](#deployment-models-of-the-cloud)
+    - [Characteristics of the Cloud Computing](#characteristics-of-the-cloud-computing)
+    - [Advantages of Cloud Computing](#advantages-of-cloud-computing)
+    - [Cloud Service Models](#cloud-service-models)
+    - [AWS Pricing Models](#aws-pricing-models)
+- [AWS Global Infrastructure](#aws-global-infrastructure)
+    - [AWS Regions](#aws-regions)
+    - [How to choose an AWS region???](#how-to-choose-an-aws-region)
+    - [AWS Availability Zones](#aws-availability-zones)
+    - [AWS Edge Locations / Points of Presence](#aws-edge-locations--points-of-presence)
+- [Shared Responsibility Model](#shared-responsibility-model)
+    - [What is the Shared Responsibility Model?](#what-is-the-shared-responsibility-model)
+    - [AWS Responsibilities: Security of the Cloud](#aws-responsibilities-security-of-the-cloud)
+    - [Customer Responsibilities: Security in the Cloud](#customer-responsibilities-security-in-the-cloud)
+
 # What is Cloud Computing?
----
  - The <mark style="background: #D2B3FFA6;">on-demand</mark> delivery of the compute power, database storage, applications, and other IT resources over the internet.
  - Through a cloud service platform with <mark style="background: #D2B3FFA6;">pay-as-you-go</mark> pricing.
  - You can <mark style="background: #D2B3FFA6;">provision exactly the right type</mark> and <mark style="background: #D2B3FFA6;">size of computing resources</mark> you need.
@@ -82,7 +81,6 @@ AWS follows three fundamental pricing principles based on the pay-as-you-go pric
 | Storage           | Pay for the amount of data stored in the cloud. Examples include S3 storage space and EBS volume usage.                                                              |
 | Data Transfer OUT | Pay for data transfer out of the cloud. Data transfer IN is free. This pricing structure solves the issue of expensive data transfer fees in traditional IT systems. |
 # AWS Global Infrastructure
---- 
 ### AWS Regions
 - All around the world.
 - Clusters of data centers.
@@ -101,7 +99,6 @@ When deploying to AWS, there are multiple factors to consider:
 ### AWS Edge Locations / Points of Presence
 - Content is delivered to end users with lower latency as amazon has 400+ points of presence in 90+ cities across 40+ countries.
 # Shared Responsibility Model
----
 ## What is the Shared Responsibility Model?
 - AWS and the customer share responsibility for security and compliance.
 - Divides security tasks based on AWS as the provider and customer as the user of cloud services.
