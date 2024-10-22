@@ -22,7 +22,7 @@
  - You can <mark style="background: #D2B3FFA6;">provision exactly the right type</mark> and <mark style="background: #D2B3FFA6;">size of computing resources</mark> you need.
  - You can access as many resources as you need,<mark style="background: #D2B3FFA6;"> almost instantly</mark>.
  - Simply way to access <mark style="background: #D2B3FFA6;">servers, storage, database</mark> and a set of <mark style="background: #D2B3FFA6;">applications services</mark>.
-## ### Why Cloud Computing?
+## Why Cloud Computing?
 - There are many problems with the traditional IT approach
     - Covering the costs of data center rental.
     - Covering expenses for power supply, cooling, and maintenance.
