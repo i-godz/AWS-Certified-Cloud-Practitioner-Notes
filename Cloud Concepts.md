@@ -87,10 +87,10 @@ AWS follows three fundamental pricing principles based on the pay-as-you-go pric
 - Most AWS services are region-scoped. 
 ### How to choose an AWS region???
 When deploying to AWS, there are multiple factors to consider:
-**Compliance:** Ensure the region meets data residency and compliance requirements.
-**Latency:** Choose a region closest to your customers for lower latency.
-**Services Available**: Check which AWS services are offered in each region.
-**Pricing**: Prices vary by region, so choose a region that fits your cost requirements.
+- **Compliance:** Ensure the region meets data residency and compliance requirements.
+- **Latency:** Choose a region closest to your customers for lower latency.
+- **Services Available**: Check which AWS services are offered in each region.
+- **Pricing**: Prices vary by region, so choose a region that fits your cost requirements.
 ### AWS Availability Zones
 - Each region has many multiple availability zones (min is 3, max is 6).
 - Each availability zones has independent redundant power, networking and connectivity.
