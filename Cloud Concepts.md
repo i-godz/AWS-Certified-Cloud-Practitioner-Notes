@@ -57,12 +57,12 @@
 ### Measured Service 
 - Usage of resources is measured, and users are charged accurately based on their consumption, ensuring cost efficiency.
 ## Advantages of Cloud Computing 
-**Cost Savings**: Pay only for the computing power, storage, and other resources you use.
-**Speed and Agility**: Quickly deploy services and resources.
-**Scalability**: Easily scale resources up or down as needed.
-**High Availability**: Highly available architecture for business continuity.
-**Global Reach**: Access services from any geographical region.
-**Security**: AWS provides robust security capabilities to protect your data.
+- **Cost Savings**: Pay only for the computing power, storage, and other resources you use.
+- **Speed and Agility**: Quickly deploy services and resources.
+- **Scalability**: Easily scale resources up or down as needed.
+- **High Availability**: Highly available architecture for business continuity.
+- **Global Reach**: Access services from any geographical region.
+- **Security**: AWS provides robust security capabilities to protect your data.
 ## Cloud Service Models 
 ![](https://i.imgur.com/ubuwOIp.png)
 
