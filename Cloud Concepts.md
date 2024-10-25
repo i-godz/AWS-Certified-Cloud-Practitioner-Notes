@@ -11,10 +11,6 @@
     - [How to choose an AWS region???](#how-to-choose-an-aws-region)
     - [AWS Availability Zones](#aws-availability-zones)
     - [AWS Edge Locations / Points of Presence](#aws-edge-locations--points-of-presence)
-- [Shared Responsibility Model](#shared-responsibility-model)
-    - [What is the Shared Responsibility Model?](#what-is-the-shared-responsibility-model)
-    - [AWS Responsibilities: Security of the Cloud](#aws-responsibilities-security-of-the-cloud)
-    - [Customer Responsibilities: Security in the Cloud](#customer-responsibilities-security-in-the-cloud)
 # What is Cloud Computing?
  - The <mark style="background: #D2B3FFA6;">on-demand</mark> delivery of the compute power, database storage, applications, and other IT resources over the internet.
  - Through a cloud service platform with <mark style="background: #D2B3FFA6;">pay-as-you-go</mark> pricing.
@@ -98,29 +94,4 @@ When deploying to AWS, there are multiple factors to consider:
 ### AWS Edge Locations / Points of Presence
 - Data centers that hold cached copies of the most popular files.
 - Content is delivered to end users with lower latency as amazon has 400+ points of presence in 90+ cities across 40+ countries.
-# Shared Responsibility Model
-### What is the Shared Responsibility Model?
-- AWS and the customer share responsibility for security and compliance.
-- Divides security tasks based on AWS as the provider and customer as the user of cloud services.
-  ![](https://i.imgur.com/ZQU9ZoZ.png)
-### AWS Responsibilities: Security of the Cloud
-- AWS is responsible for protecting the infrastructure that runs all services offered in the AWS Cloud.
-- Includes hardware, software, networking, and facilities:
-    - **Physical security** of data centers (e.g., access control, environmental controls).
-    - **Infrastructure** security, such as maintaining hypervisors, host operating systems, and network infrastructure.
-    - **Global network** operations, such as DDoS protection and monitoring.
-##### Example Responsibilities for Different AWS Services
 
-| Service Type     | AWS Responsibility                                         | Customer Responsibility                                                |
-| ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
-| IaaS (e.g., EC2) | Securing physical infrastructure, hypervisor, and network. | Configure and secure OS, patch management, data, and network settings. |
-| PaaS (e.g., RDS) | Managing the database engine, backups, and patching.       | Secure data at rest and in transit, manage DB access, and IAM roles.   |
-| SaaS (e.g., S3)  | Protecting the service's underlying infrastructure.        | Manage permissions, bucket policies, and data lifecycle rules.         |
-### Customer Responsibilities: Security in the Cloud
-- Customers are responsible for managing and securing what they put in the cloud.
-- Includes:
-    - **Data protection**: Encrypt data in transit and at rest.
-    - **IAM**: Control access through Identity and Access Management (IAM) roles, users, and policies.
-    - **OS and application configurations**: Maintain security of guest operating systems, applications, and firewall configurations.
-    - **Network settings**: Manage security group rules and network access control lists (NACLs).
-    - **Compliance**: Ensure compliance with regulations and standards based on data storage and usage.
