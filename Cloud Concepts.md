@@ -96,6 +96,7 @@ When deploying to AWS, there are multiple factors to consider:
 - They are separate from each other so that they are isolated from disasters.
 - They are connected with high bandwidth , ulta-low latency networking.
 ### AWS Edge Locations / Points of Presence
+- Data centers that hold cached copies of the most popular files.
 - Content is delivered to end users with lower latency as amazon has 400+ points of presence in 90+ cities across 40+ countries.
 # Shared Responsibility Model
 ### What is the Shared Responsibility Model?
