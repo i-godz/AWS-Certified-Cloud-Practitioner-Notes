@@ -1,8 +1,8 @@
 # Security and Compliance Index 
 - [Shared Responsibility Model](#1--shared-responsibility-model) 
-	- [What is the Shared Responsibility Model?](#what-is-the-shared-responsibility-model) 
-	- [AWS Responsibilities: Security of the Cloud](#aws-responsibilities-security-of-the-cloud) 
-	- [Customer Responsibilities: Security in the Cloud](#customer-responsibilities-security-in-the-cloud)
+	- [What is the Shared Responsibility Model?](#11-what-is-the-shared-responsibility-model) 
+	- [AWS Responsibilities: Security of the Cloud](#12-aws-responsibilities-security-of-the-cloud) 
+	- [Customer Responsibilities: Security in the Cloud](#13-customer-responsibilities-security-in-the-cloud)
 - [Identity Access & Management (IAM)](#1--identity-access--management-iam)
     - [AWS Account Overview](#11--aws-account-overview)
     - [What is IAM?](#12--what-is-iam)
@@ -10,11 +10,11 @@
 	- [IAM Permissions](#14--iam-permissions)
 	- [IAM Policies Inheritance & Structure](#15--iam-policies-inheritance--structure)
 # 1- Shared Responsibility Model
-### What is the Shared Responsibility Model?
+### 1.1- What is the Shared Responsibility Model?
 - AWS and the customer share responsibility for security and compliance.
 - Divides security tasks based on AWS as the provider and customer as the user of cloud services.
   ![](https://i.imgur.com/ZQU9ZoZ.png)
-### AWS Responsibilities: Security of the Cloud
+### 1.2- AWS Responsibilities: Security of the Cloud
 - AWS is responsible for protecting the infrastructure that runs all services offered in the AWS Cloud.
 - Includes hardware, software, networking, and facilities:
     - **Physical security** of data centers (e.g., access control, environmental controls).
@@ -27,7 +27,7 @@
 | IaaS (e.g., EC2) | Securing physical infrastructure, hypervisor, and network. | Configure and secure OS, patch management, data, and network settings. |
 | PaaS (e.g., RDS) | Managing the database engine, backups, and patching.       | Secure data at rest and in transit, manage DB access, and IAM roles.   |
 | SaaS (e.g., S3)  | Protecting the service's underlying infrastructure.        | Manage permissions, bucket policies, and data lifecycle rules.         |
-### Customer Responsibilities: Security in the Cloud
+### 1.3- Customer Responsibilities: Security in the Cloud
 - Customers are responsible for managing and securing what they put in the cloud.
 - Includes:
     - **Data protection**: Encrypt data in transit and at rest.
