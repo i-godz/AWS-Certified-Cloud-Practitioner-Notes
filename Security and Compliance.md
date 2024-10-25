@@ -1,14 +1,14 @@
 # Security and Compliance Index 
 - [Shared Responsibility Model](#1--shared-responsibility-model) 
-	- [What is the Shared Responsibility Model?](#11-what-is-the-shared-responsibility-model) 
-	- [AWS Responsibilities: Security of the Cloud](#12-aws-responsibilities-security-of-the-cloud) 
-	- [Customer Responsibilities: Security in the Cloud](#13-customer-responsibilities-security-in-the-cloud)
-- [Identity Access & Management (IAM)](#1--identity-access--management-iam)
-    - [AWS Account Overview](#11--aws-account-overview)
-    - [What is IAM?](#12--what-is-iam)
-	- [IAM Users & Groups](#13--iam-users--groups)
-	- [IAM Permissions](#14--iam-permissions)
-	- [IAM Policies Inheritance & Structure](#15--iam-policies-inheritance--structure)
+	  - [What is the Shared Responsibility Model?](#11--what-is-the-shared-responsibility-model) 
+	  - [AWS Responsibilities: Security of the Cloud](#12--aws-responsibilities-security-of-the-cloud) 
+	  - [Customer Responsibilities: Security in the Cloud](#13--customer-responsibilities-security-in-the-cloud)
+- [Identity Access & Management (IAM)](#2--identity-access--management-iam)
+	  - [AWS Account Overview](#21--aws-account-overview)
+	  - [What is IAM?](#22--what-is-iam)
+	  - [IAM Users & Groups](#23--iam-users--groups)
+	  - [IAM Permissions](#24--iam-permissions)
+	  - [IAM Policies Inheritance & Structure](#25--iam-policies-inheritance--structure)
 # 1- Shared Responsibility Model
 ### 1.1- What is the Shared Responsibility Model?
 - AWS and the customer share responsibility for security and compliance.
